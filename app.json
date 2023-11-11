@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "timerApp",
+    "name": "Yu-Gi-Oh-Helper",
     "slug": "timerApp",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -9,22 +9,26 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#181818"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#181818"
+      },
+      "package": "com.awadree.timerApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0d927e33-ae4e-4891-84a4-a57ed56617b6"
+      }
     }
   }
 }
